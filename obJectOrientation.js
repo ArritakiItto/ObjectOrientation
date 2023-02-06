@@ -12,7 +12,7 @@ class Vehicle {
     this.make = make;
     this.model = model;
     this.year = year;
-  }
+  
 
 //Each vehicle instance should have access to a method called honk, which returns the string “Beep.”
  honk() {
@@ -83,7 +83,8 @@ add(newVehicle)
 
   this.vehicles.push(newVehicle);
 
-}
+    }
+  }
 }
 
 
